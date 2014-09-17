@@ -9,7 +9,7 @@ To run the scraper:
 
     scrapy crawl dpsk12
 
-The HTML would get captured in file containing a JSON object, one page per line, e.g.:
+The HTML would get captured in file containing JSON objects, one object per page per line, e.g.:
 
     {'url': 'http://....'}
     {'url': 'http://....'}
